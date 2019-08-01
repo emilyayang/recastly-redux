@@ -28,7 +28,7 @@ class App extends React.Component {
       key: this.props.API_KEY,
       query: query
     };
-s
+
     this.props.searchYouTube(options, (videos) =>
       this.setState({
         videos: videos,
